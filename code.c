@@ -2,7 +2,7 @@
 #include <assert.h>
 
 int count_unique_elements_divisible_by_k(int arr[], int size, int k) {
-    int unique_elements[1000] = {0}; // Предполагаем, что максимальное значение элемента в массиве не превышает 1000
+    int unique_elements[1000] = {0}; 
     int count = 0;
 
     for (int i = 0; i < size; i++) {
